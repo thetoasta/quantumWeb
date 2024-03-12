@@ -21,6 +21,11 @@ header {
     color: #ffffff
 }
 
+.news h2 {
+    color: white;
+}
+
+
 .container {
     display: flex;
     justify-content: space-between;
