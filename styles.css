@@ -22,8 +22,9 @@ header {
 }
 
 .news h2 {
-    color: white;
+    color: white !important;
 }
+
 
 
 .container {
