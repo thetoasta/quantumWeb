@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.support-button {
+    background-color: #7289DA;
+}
+
+.invite-button {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
