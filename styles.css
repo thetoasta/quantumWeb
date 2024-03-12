@@ -4,8 +4,9 @@ body {
     background: linear-gradient(135deg, #241f4b, #501b62);
     background-size: cover;
     background-attachment: fixed;
-    filter: blur(5px);
 }
+
+
 
 header {
     background-color: rgba(0, 0, 0, 0.7);
