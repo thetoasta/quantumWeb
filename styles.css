@@ -17,6 +17,9 @@ header {
     color: #ffffff; /* Change to the desired text color */
 }
 
+#news {
+    color: #ffffff
+}
 
 .container {
     display: flex;
