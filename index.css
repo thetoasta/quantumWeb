@@ -1,6 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #241f4b, #501b62);
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(5px);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
     text-align: center;
+    color: white;
+    padding: 100px 0;
 }
 
 .button {
@@ -10,13 +66,10 @@ body {
     border-radius: 5px;
     text-decoration: none;
     color: white;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-.support-button {
-    background-color: #7289DA;
-}
-
-.invite-button {
-    background-color: #cccccc;
-    cursor: not-allowed;
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
 }
